@@ -544,6 +544,7 @@
       bench setup add-domain --site interval.intercam.com.mx interval.intercam.com.mx
       bench --site interval.interconectando.me install-app interconectando_avc_server
       bench config set-common-config -c scheduler_tick_interval 1
+      bench config http_timeout 7200
 
       bench --site interval.intercam.com.mx add-user --first-name León --last-name Sedano --password Interval-123 lsedano@intercam.com.mx
       ```
